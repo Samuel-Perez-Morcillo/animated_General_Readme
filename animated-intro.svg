@@ -8,14 +8,14 @@
       text-anchor: middle;
       dominant-baseline: middle;
     }
-    @keyframes fadeInOut {
-      0%, 100% { opacity: 0; }
-      20%, 80% { opacity: 1; }
+    @keyframes moveText {
+      0% { transform: translateX(-100%); }
+      50% { transform: translateX(0); }
+      100% { transform: translateX(100%); }
     }
-    .text1 { animation: fadeInOut 4s linear infinite; }
-    .text2 { animation: fadeInOut 4s linear infinite 2s; }
+    .text1 { animation: moveText 4s linear infinite; }
+    .text2 { animation: moveText 4s linear infinite 2s; }
   </style>
-  <rect width="100%" height="100%" fill="white"/>
   <text x="50%" y="50%" class="text text1">Hi, I'm Samuel Pérez</text>
   <text x="50%" y="50%" class="text text2">Full Stack Developer</text>
 </svg>
