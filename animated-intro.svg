@@ -2,9 +2,8 @@
   <style>
     .text {
       font-family: Arial, sans-serif;
-      text-color:white;
       font-size: 24px;
-      fill: #333;
+      fill: #fff;
       font-weight: bold;
       text-anchor: middle;
       dominant-baseline: middle;
